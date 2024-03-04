@@ -1,21 +1,6 @@
-#bagama{
-  position: relative;
+#bangladesh{
   width: 125px;
-  height: 25px;
-  border-top: 25px solid rgb(107, 202, 226);
-  border-bottom: 25px solid rgb(107, 202, 226);
-  background-color: rgb(255,255,0);
-}
-#bagama:after{
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 0;
-  left: 0;
-  top: -25px;
-  border-top: 37px solid transparent;
-  border-bottom: 37px solid transparent;
-  border-left: 64px solid #000000;
-  -moz-transform: scale(0.999);
-  -webkit-backface-visibility: hidden;
+  height: 75px;
+  background: radial-gradient(circle at 45% 50% , #FF0000 25px, rgba(0, 106, 78, 1) 27px);
+  box-shadow: 0px 0px 15px 2px #e5e5e5;
 }
